@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "name": "locations",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "richtext"
+    },
+    "markerType": {
+      "type": "richtext"
+    },
+    "lat": {
+      "type": "richtext"
+    },
+    "lng": {
+      "type": "richtext"
+    },
+    "latlng": {
+      "type": "richtext"
+    }
+  }
+}
